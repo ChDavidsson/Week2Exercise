@@ -30,7 +30,7 @@ class Program
         goat1.NumberOfLegs = 4;
         goat1.Beard = "This goat has a long beard";
         
-        Console.WriteLine($"Name: {goat1.Name}, Type: {goat1.Type}, {goat1.Beard}");
+        Console.WriteLine($"Name: {goat1.Name}, {goat1.Beard}");
         goat1.makeSound();
         goat1.run();
     }

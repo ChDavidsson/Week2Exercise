@@ -16,7 +16,22 @@ class Program
         cat1.makeSound();
         cat1.run();
 
+        Dog dog1 = new Dog();
+        dog1.Name = "Hasse";
+        dog1.Type = "Labrador";
+        dog1.NumberOfLegs = 4;
+        
+        Console.WriteLine($"Name: {dog1.Name}, Type: {dog1.Type}");
+        dog1.makeSound();
+        dog1.run();
 
-
+        Goat goat1 = new Goat();
+        goat1.Name = "Mårten";
+        goat1.NumberOfLegs = 4;
+        goat1.Beard = "This goat has a long beard";
+        
+        Console.WriteLine($"Name: {goat1.Name}, Type: {goat1.Type}, {goat1.Beard}");
+        goat1.makeSound();
+        goat1.run();
     }
 }
